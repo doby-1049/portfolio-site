@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>星野ウェブ制作｜小さなお店・個人事業主のためのホームページ制作</title>
+  <meta name="description" content="個人事業主・小規模事業者向けのホームページ・LP制作。ヒアリングから公開後の修正まで、ひとりで責任を持って対応します。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo">星野ウェブ制作</a>
+
+      <nav class="header__nav" id="global-nav" aria-label="メインメニュー">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#features" class="nav__link">選ばれる理由</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">サービス・料金</a></li>
+          <li class="nav__item"><a href="#works" class="nav__link">制作実績</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">お問い合わせ</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn--primary header__cta">無料で相談する</a>
+
+      <!-- ハンバーガーボタン（スマホ表示のときだけ表示される） -->
+      <button type="button" class="header__toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav">
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ヒーロー -->
+    <section class="hero">
+      <div class="hero__inner">
+        <div class="hero__body">
+          <h1 class="hero__title">お客様が「問い合わせたい」と<br>思えるページをつくります。</h1>
+          <p class="hero__lead">
+            個人事業主・小さなお店のためのホームページ・LP制作。
+            ヒアリングから公開後の修正まで、私ひとりが最後まで担当します。
+          </p>
+
+          <ul class="hero__stats">
+            <li class="hero__stat">
+              <span class="hero__stat-value">40件</span>
+              <span class="hero__stat-label">制作実績</span>
+            </li>
+            <li class="hero__stat">
+              <span class="hero__stat-value">平均10日</span>
+              <span class="hero__stat-label">お申し込みから公開まで</span>
+            </li>
+            <li class="hero__stat">
+              <span class="hero__stat-value">85%</span>
+              <span class="hero__stat-label">リピート・ご紹介率</span>
+            </li>
+          </ul>
+
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary btn--large">無料で相談する</a>
+            <a href="#works" class="btn btn--outline btn--large">制作実績を見る</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <img src="images/phone.jpg" alt="制作したホームページのイメージ" class="hero__image" width="600" height="400">
+        </div>
+      </div>
+    </section>
+
+    <!-- 特徴・強み -->
+    <section class="section features" id="features">
+      <div class="section__inner">
+        <h2 class="section__title">選ばれる理由</h2>
+        <p class="section__lead">大手制作会社にはない、ひとりだからできる対応を大切にしています。</p>
+
+        <ul class="features__list">
+          <li class="card features__item">
+            <img src="images/peaple.jpg" alt="打ち合わせのイメージ" class="card__image" width="600" height="400" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title">窓口から制作まで同じ人が担当</h3>
+              <p class="card__text">
+                ヒアリングも制作も修正も、すべて私が直接担当します。
+                伝言ゲームがないので、細かな要望も正確に反映できます。
+              </p>
+            </div>
+          </li>
+
+          <li class="card features__item">
+            <img src="images/hero.jpg" alt="スマートフォンで表示したサイトのイメージ" class="card__image" width="600" height="400" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title">スマホで見やすい設計</h3>
+              <p class="card__text">
+                閲覧の多くはスマートフォンからです。
+                画面の小さい端末でも、読みやすく押しやすいページに仕上げます。
+              </p>
+            </div>
+          </li>
+
+          <li class="card features__item">
+            <img src="images/free.jpg" alt="公開後のサポートのイメージ" class="card__image" width="600" height="400" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title">公開後の修正もお任せください</h3>
+              <p class="card__text">
+                公開から30日間は、文章や画像の差し替えを無料で承ります。
+                その後も、小さな修正から気軽にご相談いただけます。
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- サービス内容・料金目安 -->
+    <section class="section services" id="services">
+      <div class="section__inner">
+        <h2 class="section__title">サービス内容・料金目安</h2>
+        <p class="section__lead">ご予算や目的に合わせて、必要な範囲だけご提案します。</p>
+
+        <ul class="services__list">
+          <li class="service">
+            <h3 class="service__name">Webサイト制作</h3>
+            <p class="service__price">20,000円〜</p>
+            <p class="service__text">会社・お店の紹介ページを、複数ページ構成でつくります。</p>
+            <ul class="service__points">
+              <li class="service__point">5ページ程度の構成</li>
+              <li class="service__point">スマホ対応</li>
+              <li class="service__point">お問い合わせフォーム設置</li>
+            </ul>
+          </li>
+
+          <li class="service service--recommend">
+            <h3 class="service__name">LP制作</h3>
+            <p class="service__price">5,000円〜</p>
+            <p class="service__text">商品やサービスの申し込みにつなげる、1ページ完結のページです。</p>
+            <ul class="service__points">
+              <li class="service__point">構成案とキャッチコピーのご提案</li>
+              <li class="service__point">スマホ対応</li>
+              <li class="service__point">申し込みボタン・フォーム設置</li>
+            </ul>
+          </li>
+
+          <li class="service">
+            <h3 class="service__name">サイト改修・修正</h3>
+            <p class="service__price">2,500円〜</p>
+            <p class="service__text">既存サイトのデザイン変更や、スマホ表示の調整を行います。</p>
+            <ul class="service__points">
+              <li class="service__point">文章・画像の差し替え</li>
+              <li class="service__point">レイアウトの調整</li>
+              <li class="service__point">表示速度の改善</li>
+            </ul>
+          </li>
+        </ul>
+
+        <p class="services__note">※ 表示は税込の目安です。内容をうかがったうえで、正式にお見積りします。</p>
+      </div>
+    </section>
+
+    <!-- 制作実績 -->
+    <section class="section works" id="works">
+      <div class="section__inner">
+        <h2 class="section__title">制作実績</h2>
+        <p class="section__lead">これまでに担当したサイトの一部をご紹介します。</p>
+
+        <ul class="works__list">
+          <li class="card works__item">
+            <img src="images/cafe.jpg" alt="カフェのホームページ" class="card__image" width="600" height="400" loading="lazy">
+            <div class="card__body">
+              <p class="works__category">LP制作</p>
+              <h3 class="card__title">焙煎所カフェ「豆の木」</h3>
+              <p class="card__text">定期便の申し込みに特化したLPを制作。公開後2か月で申し込みが1.8倍になりました。</p>
+            </div>
+          </li>
+
+          <li class="card works__item">
+            <img src="images/seitai.jpg" alt="整体院のホームページ" class="card__image" width="600" height="400" loading="lazy">
+            <div class="card__body">
+              <p class="works__category">Webサイト制作</p>
+              <h3 class="card__title">整体院「やすらぎ堂」</h3>
+              <p class="card__text">施術内容と料金を整理した5ページ構成のサイト。電話予約のボタンをスマホで押しやすく配置しました。</p>
+            </div>
+          </li>
+
+          <li class="card works__item">
+            <img src="images/zakka.jpg" alt="ハンドメイド雑貨店のホームページ" class="card__image" width="600" height="400" loading="lazy">
+            <div class="card__body">
+              <p class="works__category">サイト改修</p>
+              <h3 class="card__title">ハンドメイド雑貨店「ことり舎」</h3>
+              <p class="card__text">スマホで崩れていた既存サイトを改修。商品写真が見やすくなり、閲覧時間が伸びました。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section class="section contact" id="contact">
+      <div class="section__inner contact__inner">
+        <h2 class="section__title">無料相談・お問い合わせ</h2>
+        <p class="section__lead">
+          「何から始めればいいかわからない」という段階でも大丈夫です。
+          2営業日以内にご返信します。
+        </p>
+
+        <form class="form" action="#" method="post">
+          <div class="form__group">
+            <label for="name" class="form__label">お名前</label>
+            <input type="text" id="name" name="name" class="form__input" placeholder="例：山田 太郎" required>
+          </div>
+
+          <div class="form__group">
+            <label for="email" class="form__label">メールアドレス</label>
+            <input type="email" id="email" name="email" class="form__input" placeholder="例：example@mail.com" required>
+          </div>
+
+          <div class="form__group">
+            <label for="service" class="form__label">ご相談内容</label>
+            <select id="service" name="service" class="form__select">
+              <option value="site">Webサイト制作</option>
+              <option value="lp">LP制作</option>
+              <option value="repair">サイト改修・修正</option>
+              <option value="other">その他・まだ決まっていない</option>
+            </select>
+          </div>
+
+          <div class="form__group">
+            <label for="message" class="form__label">メッセージ</label>
+            <textarea id="message" name="message" class="form__textarea" rows="5" placeholder="事業の内容やご希望の時期など、わかる範囲でお書きください"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--large form__submit">この内容で送信する</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__logo">星野ウェブ制作</p>
+
+      <ul class="footer__sns">
+        <li class="footer__sns-item"><a href="#" class="footer__sns-link">X</a></li>
+        <li class="footer__sns-item"><a href="#" class="footer__sns-link">Instagram</a></li>
+        <li class="footer__sns-item"><a href="#" class="footer__sns-link">GitHub</a></li>
+      </ul>
+
+      <p class="footer__copyright">&copy; 2026 星野ウェブ制作 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
